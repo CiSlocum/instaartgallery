@@ -1,0 +1,63 @@
+* {
+  box-sizing:border-box
+}
+
+body {
+  background: #272D2D;
+  font-family: 'Poiret One', cursive; 
+  font-size: 150%;
+  color: #EDFCFC; /*font color*/
+  margin:0;
+  padding:0;
+}
+
+article {
+  padding:2em;
+}
+
+#gallery {
+  background:#9AA8A8;
+  min-height:250px;
+  display:flex;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 25px;
+  margin: auto;
+    width: 60%;
+}
+
+#gallery img {
+    border-radius: 50%;
+}
+
+button {
+    font-family: 'Poiret One', cursive; 
+    background-color: #23CECE;
+    border: none;
+  border-radius: 50%;
+    color: #272D2D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+}
+
+button:hover {
+    background-color: #0e5252;
+    color: #272D2D;
+}
+
+a:link {
+    color: #9AA8A8; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0e5252;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* https://coolors.co/272d2d-9aa8a8-b8d6d6-edfcfc-23cece */
